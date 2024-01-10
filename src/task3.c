@@ -231,6 +231,8 @@ task3(const Row *rows, int nrows)
             printf("%d,%d\n", temp[i].a, temp[i].b);
         }
     }
+    free(temp);
+    temp = NULL;
 }
 
 
